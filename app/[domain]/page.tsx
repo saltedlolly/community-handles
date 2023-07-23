@@ -187,7 +187,7 @@ export default async function IndexPage({
         </Stage>
         <Stage
           title="Change your handle within the Bluesky app"
-          number={3}
+          number={4}
           disabled={!newHandle || !!error2}
           last
         >
@@ -198,9 +198,13 @@ export default async function IndexPage({
             &quot;Verify DNS Record&quot;.
           </p>
           <p className="mt-6 max-w-lg text-sm">
-            If you like this project, consider{" "}
-            <a href="https://github.com/sponsors/mozzius" className="underline">
-              sponsoring my work
+            This is a project of{" "}
+            <a href="https://digibyte.help" className="underline">
+              DigiByte.Help
+            </a>
+            . To learn more about DigiByte, go{" "}
+            <a href="https://digibyte.org" className="underline">
+              here
             </a>
             .
           </p>
