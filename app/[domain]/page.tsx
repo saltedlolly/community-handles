@@ -197,14 +197,7 @@ export default async function IndexPage({
             {newHandle ? `"${newHandle}"` : "your new handle"}. Finally, tap
             &quot;Verify DNS Record&quot;.
           </p>
-          <p className="mt-6 max-w-lg text-sm">
-            This is a project of{" "}
-            <a href="https://digibyte.help" className="underline">
-              DigiByte.Help
-            </a>
-            .<br>For help, message,{" "}<a href="https://bsky.app/profile/digibyte.help" className="underline">
-              @DigiByte.Help</a> on Bluesky.
-          </p>
+
           <p className="mt-6 max-w-lg text-sm">
             To learn more about DigiByte, go{" "}
             <a href="https://digibyte.org" className="underline">
