@@ -203,7 +203,9 @@ export default async function IndexPage({
             <a href="https://digibyte.help" className="underline">
               DigiByte.Help
             </a>
-            .
+            . For help, message, <a href="https://bsky.app/profile/digibyte.help" className="underline">
+              @DigiByte.Help
+            </a> on Bluesky.
           </p>
 
           <p className="mt-6 max-w-lg text-sm">
