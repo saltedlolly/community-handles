@@ -115,7 +115,7 @@ export default async function IndexPage({
         </p>
       </div>
       <div>
-        <Stage title="Enter your current handle" number={1}>
+        <Stage title="Enter your current Bluesky handle" number={1}>
           <form>
             <div className="grid w-full max-w-sm items-center gap-1.5">
               <div className="flex w-full max-w-sm items-center space-x-2">
@@ -202,7 +202,14 @@ export default async function IndexPage({
             <a href="https://digibyte.help" className="underline">
               DigiByte.Help
             </a>
-            . To learn more about DigiByte, go{" "}
+            . If you need help, message,{" "}
+            <a href="https://bsky.app/profile/digibyte.help" className="underline">
+              @DigiByte.Help
+            </a>
+             on Bluesky.
+          </p>
+          <p className="mt-6 max-w-lg text-sm">
+            To learn more about DigiByte, go{" "}
             <a href="https://digibyte.org" className="underline">
               here
             </a>
