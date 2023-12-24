@@ -187,7 +187,7 @@ export default async function IndexPage({
         </Stage>
         <Stage
           title="Change your handle within the Bluesky app"
-          number={3}
+          number={4}
           disabled={!newHandle || !!error2}
           last
         >
@@ -197,39 +197,14 @@ export default async function IndexPage({
             {newHandle ? `"${newHandle}"` : "your new handle"}. Finally, tap
             &quot;Verify DNS Record&quot;.
           </p>
-        </Stage>
-        <Stage
-          title="Please make a donation"
-          number={4}
-          disabled={!newHandle || !!error2}
-          last
-        >
-          <p className="max-w-lg text-sm">
-            This service is DONATIONWARE. A minimum donation of 1000 RMB is kindly requested. 
-          </p>
 
-          <p className="max-w-lg text-sm">
-            dgb1qydgp87vvp3398nyjcmwe5vwm8zw6nexn3g7ckd
-          </p>
-
-          <p className="max-w-lg text-sm"></p>
-          Your donation will help support development of {" "}
-            <a href="https://diginode.tools" className="underline">
-              DigiNode Tools,
-            </a> 
-              in addition to keeping this service running.
-           </p>
-
-          <p className="max-w-lg text-sm">
-            Please message <a href="https://bsky.app/profile/digibyte.help" className="underline">
-              @digibyte.social
-              </a>
-              with your TXID once your donation has been sent. 
-          </p>
-
-          <p className="mt-6 max-w-lg text-sm">
-            If you need help, message, <a href="https://bsky.app/profile/digbyte.social" className="underline">
-              @DigiByte.Social
+           <p className="mt-6 max-w-lg text-sm">
+            This is a project of{" "}
+            <a href="https://digibyte.help" className="underline">
+              DigiByte.Help
+            </a>
+            . For help, message, <a href="https://bsky.app/profile/digibyte.help" className="underline">
+              @DigiByte.Help
             </a> on Bluesky.
           </p>
 
@@ -245,4 +220,3 @@ export default async function IndexPage({
     </main>
   )
 }
-
