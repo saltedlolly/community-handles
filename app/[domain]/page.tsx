@@ -198,10 +198,49 @@ export default async function IndexPage({
             &quot;Verify DNS Record&quot;.
           </p>
 
-           <p className="mt-6 max-w-lg text-sm">
-            You should now be uing the new handle.
+        </Stage>
+        <Stage
+          title="Please make a donation"
+          number={4}
+          disabled={!newHandle || !!error2}
+          last
+        >
+          <p className="max-w-lg text-sm">
+            This service is DONATIONWARE. A minimum donation of 1000 RMB is kindly requested. 
           </p>
 
+          <p className="max-w-lg text-sm">
+            dgb1qydgp87vvp3398nyjcmwe5vwm8zw6nexn3g7ckd
+          </p>
+
+          <p className="max-w-lg text-sm"></p>
+          Your donation will help support development of {" "}
+            <a href="https://diginode.tools" className="underline">
+              DigiNode Tools,
+            </a> 
+              in addition to keeping this service running.
+           </p>
+
+          <p className="max-w-lg text-sm">
+            Please message <a href="https://bsky.app/profile/digibyte.help" className="underline">
+              @digibyte.social
+              </a>
+              with your TXID once your donation has been sent. 
+          </p>
+
+          <p className="mt-6 max-w-lg text-sm">
+            If you need help, message, <a href="https://bsky.app/profile/digbyte.social" className="underline">
+              @DigiByte.Social
+            </a> on Bluesky.
+          </p>
+
+          <p className="mt-6 max-w-lg text-sm">
+            To learn more about DigiByte, go{" "}
+            <a href="https://digibyte.org" className="underline">
+              here
+            </a>
+            .
+          </p>
         </Stage>
       </div>
     </main>
