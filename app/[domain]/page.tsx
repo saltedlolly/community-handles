@@ -204,15 +204,15 @@ export default async function IndexPage({
           last
         >
 
-        <p className="max-w-lg text-sm">
-          This service is provided to help fund development of {" "}
+        <p className="max-w-lg text-smmt-6">
+          This service exists to help fund development of {" "}
             <a href="https://diginode.tools" className="underline">
               DigiNode Tools 
             </a>. A minimum donation of 1000 DGB is kindly requested: 
         </p>
 
-        <p className="max-w-lg text-sm mt-6">
-            dgb1qydgp87vvp3398nyjcmwe5vwm8zw6nexn3g7ckd
+        <p className="max-w-lg text-sm mt-6"><strong>
+            dgb1qydgp87vvp3398nyjcmwe5vwm8zw6nexn3g7ckd</strong>
           </p>
 
           <p className="max-w-lg text-sm">
