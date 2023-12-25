@@ -215,12 +215,7 @@ export default async function IndexPage({
             dgb1qydgp87vvp3398nyjcmwe5vwm8zw6nexn3g7ckd
           </p>
 
-           <p className="mt-6 max-w-lg text-sm">
-            DigiNode Tools makes it easy to setup and manage a DigiByte Node and DigiAsset Node on a Raspberry Pi, or other Ubuntu/Debian system. To learn more about DigiNode Tools, click {" "}
-            <a href="https://diginode.tools" className="underline">
-              here.
-            </a>. Your donation halps me to feep improving it, as well as covering the costs of running this service. Thank you very much for your support.
-          </p>
+
 
 
 
