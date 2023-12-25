@@ -208,13 +208,6 @@ export default async function IndexPage({
             </a> on Bluesky.
           </p>
 
-          <p className="mt-6 max-w-lg text-sm">
-            To learn more about DigiByte, go{" "}
-            <a href="https://digibyte.org" className="underline">
-              here
-            </a>
-            .
-          </p>
         </Stage>
       </div>
     </main>
