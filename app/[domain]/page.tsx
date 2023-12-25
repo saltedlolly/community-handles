@@ -187,7 +187,7 @@ export default async function IndexPage({
         </Stage>
         <Stage
           title="Change your handle within the Bluesky app"
-          number={4}
+          number={3}
           disabled={!newHandle || !!error2}
           last
         >
@@ -199,13 +199,7 @@ export default async function IndexPage({
           </p>
 
            <p className="mt-6 max-w-lg text-sm">
-            This is a project of{" "}
-            <a href="https://digibyte.help" className="underline">
-              DigiByte.Help
-            </a>
-            . For help, message, <a href="https://bsky.app/profile/digibyte.help" className="underline">
-              @DigiByte.Help
-            </a> on Bluesky.
+            You should now be uing the new handle.
           </p>
 
         </Stage>
