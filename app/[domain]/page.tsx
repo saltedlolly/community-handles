@@ -222,28 +222,7 @@ export default async function IndexPage({
             </a>. Your donation halps me to feep improving it, as well as covering the costs of running this service. Thank you very much for your support.
           </p>
 
-          <p className="max-w-lg text-sm"></p>
-          To confirm your donation has been sent, please message {" "} <a href="https://bsky.app/profile/digibyte.social" className="underline">
-            @digibyte.social
-            </a> 
-            on Bluesky, including your TXID. 
-           </p>
 
-           <p className="max-w-lg text-sm">
-            If you need help or have any questions, please message me on Blusesky {" "}  <a href="https://bsky.app/profile/olly.st" className="underline">
-              @olly.st
-              </a>. Many thanks, Olly
-          </p>
-
-
-
-          <p className="mt-6 max-w-lg text-sm">
-            To learn more about DigiByte, go{" "}
-            <a href="https://digibyte.org" className="underline">
-              here
-            </a>
-            .
-          </p>
 
         </Stage>
       </div>
