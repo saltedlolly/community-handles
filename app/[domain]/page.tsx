@@ -111,7 +111,7 @@ export default async function IndexPage({
           handle for Bluesky
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
-          Follow the instructions below to get your own {domain} handle
+          Follow the instructions below to get your own name.{domain} handle
         </p>
       </div>
       <div>
@@ -203,11 +203,46 @@ export default async function IndexPage({
           number={4}
           last
         >
-          <p className="max-w-lg text-sm">
-            Go to Settings {">"} Advanced {">"} Change my handle. Select &quot;I
-            have my own domain&quot; and enter{" "}
-            {newHandle ? `"${newHandle}"` : "your new handle"}. Finally, tap
-            &quot;Verify DNS Record&quot;.
+
+        <p className="max-w-lg text-sm"></p>
+          This service is provided for the DigiByte community to help provide funding for the development of {" "}
+            <a href="https://diginode.tools" className="underline">
+              DigiNode Tools 
+            </a>. A minimum donation of 1000 DGB is kindly requested. 
+        </p>
+
+        <p className="max-w-lg text-sm">
+            dgb1qydgp87vvp3398nyjcmwe5vwm8zw6nexn3g7ckd
+          </p>
+
+           <p className="mt-6 max-w-lg text-sm">
+            DigiNode Tools makes it easy to setup and manage a DigiByte Node and DigiAsset Node on a Raspberry Pi, or other Ubuntu/Debian system. To learn more about DigiNode Tools, click {" "}
+            <a href="https://diginode.tools" className="underline">
+              here.
+            </a>. Your donation halps me to feep improving it, as well as covering the costs of running this service. Thank you very much for your support.
+          </p>
+
+          <p className="max-w-lg text-sm"></p>
+          To confirm your donation has been sent, please message {" "} <a href="https://bsky.app/profile/digibyte.social" className="underline">
+            @digibyte.social
+            </a> 
+            on Bluesky, including your TXID. 
+           </p>
+
+           <p className="max-w-lg text-sm">
+            If you need help or have any questions, please message me on Blusesky {" "}  <a href="https://bsky.app/profile/olly.st" className="underline">
+              @olly.st
+              </a>. Many thanks, Olly
+          </p>
+
+
+
+          <p className="mt-6 max-w-lg text-sm">
+            To learn more about DigiByte, go{" "}
+            <a href="https://digibyte.org" className="underline">
+              here
+            </a>
+            .
           </p>
 
         </Stage>
