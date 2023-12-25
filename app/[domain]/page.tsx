@@ -204,7 +204,7 @@ export default async function IndexPage({
           last
         >
 
-        <p className="max-w-lg text-sm"></p>
+        <p className="max-w-lg text-sm">
           This service is provided for the DigiByte community to help provide funding for the development of {" "}
             <a href="https://diginode.tools" className="underline">
               DigiNode Tools 
