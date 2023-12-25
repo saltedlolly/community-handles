@@ -208,7 +208,7 @@ export default async function IndexPage({
           This service is provided for the DigiByte community to help fund for development of {" "}
             <a href="https://diginode.tools" className="underline">
               DigiNode Tools 
-            </a>. A minimum donation of 1000 DGB is kindly requested:<br> 
+            </a>. A minimum donation of 1000 DGB is kindly requested: 
         </p>
 
         <p className="max-w-lg text-sm">
