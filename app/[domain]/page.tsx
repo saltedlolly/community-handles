@@ -215,10 +215,6 @@ export default async function IndexPage({
             dgb1qydgp87vvp3398nyjcmwe5vwm8zw6nexn3g7ckd
           </p>
 
-
-
-
-
         </Stage>
       </div>
     </main>
