@@ -229,7 +229,7 @@ export default async function IndexPage({
           <a href="https://bsky.app/profile/digibyte.social" className="underline">
             @digibyte.social
             </a> 
-            on Bluesky with your TXID. 
+             on Bluesky with your TXID. 
           </p>
 
           <p className="mt-6 max-w-lg text-sm"><em>
