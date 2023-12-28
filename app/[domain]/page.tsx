@@ -210,6 +210,7 @@ export default async function IndexPage({
         <Stage
           title="Please make a donation"
           number={4}
+          disabled={!newHandle || !!error2}
           last
         >
 
