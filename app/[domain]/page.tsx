@@ -113,10 +113,10 @@ export default async function IndexPage({
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
             Choose between {" "}
             <a href="https://digibyte.social" className="underline">
-              you.digibyte.social 
+              digibyte.social 
             </a> and {" "}
             <a href="https://digibyte.life" className="underline">
-              you.digibyte.life 
+              digibyte.life 
             </a>. 
           </p>
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
