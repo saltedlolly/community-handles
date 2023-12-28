@@ -229,8 +229,7 @@ export default async function IndexPage({
           To confirm your donation has been sent, please message {" "} 
           <a href="https://bsky.app/profile/digibyte.social" className="underline">
             @digibyte.social
-            </a> 
-             on Bluesky with your TXID. 
+            </a> on Bluesky with your TXID. 
           </p>
 
           <p className="mt-6 max-w-lg text-sm"><em>
