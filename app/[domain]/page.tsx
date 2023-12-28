@@ -111,6 +111,15 @@ export default async function IndexPage({
           handle for Bluesky
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
+            Choose between {" "}
+            <a href="https://digibyte.social" className="underline">
+              you.digibyte.social 
+            </a> and {" "}
+            <a href="https://digibyte.life" className="underline">
+              you.digibyte.life 
+            </a>. 
+          </p>
+        <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
           Follow the instructions below to get your own @you.{domain} handle
         </p>
       </div>
@@ -208,19 +217,12 @@ export default async function IndexPage({
           This service exists to help fund development of {" "}
             <a href="https://diginode.tools" className="underline">
               DigiNode Tools 
-            </a>. A minimum donation of 1000 DGB is kindly requested: 
+            </a>. A minimum donation of 1000 DGB is requested: 
         </p>
 
         <p className="max-w-lg text-sm mt-6"><strong>
             dgb1qydgp87vvp3398nyjcmwe5vwm8zw6nexn3g7ckd</strong>
           </p>
-
-          <p className="max-w-lg text-sm mt-6">
-          To confirm your donation has been sent, please message {" "} 
-          <a href="https://bsky.app/profile/digibyte.social" className="underline">
-            @digibyte.social
-            </a> on Bluesky, including your TXID. 
-           </p>
 
           <p className="mt-6 max-w-lg text-sm"><em>
             DigiNode Tools makes it easy to setup and manage a DigiByte Node & DigiAsset Node on a Raspberry Pi, or other Ubuntu/Debian system. Go {" "}
