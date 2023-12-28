@@ -222,24 +222,15 @@ export default async function IndexPage({
             </a> on Bluesky, including your TXID. 
            </p>
 
-          <p className="mt-6 max-w-lg text-sm">
+          <p className="mt-6 max-w-lg text-sm"><em>
             DigiNode Tools makes it easy to setup and manage a DigiByte Node & DigiAsset Node on a Raspberry Pi, or other Ubuntu/Debian system. Go {" "}
             <a href="https://diginode.tools" className="underline">
               here
             </a> to learn more. Your donation helps me to keep improving it, as well as covering the costs of running this service. 
             If you need help or have any questions, please message me on Blusesky {" "}  <a href="https://bsky.app/profile/olly.st" className="underline">
               @olly.st
-              </a>. Thank you very much for your support. Olly
+              </a>. Thank you very much for your support. Olly</em>
           </p>
-
-
-
-           <p className="max-w-lg text-sm mt-6">
-            If you need help or have any questions, please message me on Blusesky {" "}  <a href="https://bsky.app/profile/olly.st" className="underline">
-              @olly.st
-              </a>. Thank you very much for your support. Olly
-          </p>
-
 
         </Stage>
       </div>
