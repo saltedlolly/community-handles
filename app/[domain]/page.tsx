@@ -231,6 +231,8 @@ export default async function IndexPage({
             </a> to learn more. Your donation helps me to keep improving it, as well as covering the costs of running this service. 
             If you need help or have any questions, please message me on Blusesky {" "}  <a href="https://bsky.app/profile/olly.st" className="underline">
               @olly.st
+              </a> or on X {" "}  <a href="https://x.com/saltedlolly" className="underline">
+              @saltedlolly
               </a>. Thank you very much for your support. Olly</em>
           </p>
 
