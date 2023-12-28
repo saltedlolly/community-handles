@@ -107,7 +107,7 @@ export default async function IndexPage({
     <main className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-4">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
-          Get your own {domain} <br className="hidden sm:inline" />
+          Get your own DigiByte community <br className="hidden sm:inline" />
           handle for Bluesky
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
@@ -222,6 +222,14 @@ export default async function IndexPage({
 
         <p className="max-w-lg text-sm mt-6"><strong>
             dgb1qydgp87vvp3398nyjcmwe5vwm8zw6nexn3g7ckd</strong>
+          </p>
+
+          <p className="max-w-lg text-sm mt-6">
+          To confirm your donation has been sent, please message {" "} 
+          <a href="https://bsky.app/profile/digibyte.social" className="underline">
+            @digibyte.social
+            </a> 
+            on Bluesky with your TXID. 
           </p>
 
           <p className="mt-6 max-w-lg text-sm"><em>
