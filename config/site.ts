@@ -10,10 +10,6 @@ export const siteConfig = {
       title: "Members",
       href: "/community",
     },
-    {
-      title: "Create your own community handle",
-      href: "/create-your-own",
-    },
   ],
   links: {
     github: "https://github.com/saltedlolly/community-handles",
