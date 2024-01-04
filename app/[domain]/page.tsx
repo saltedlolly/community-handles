@@ -201,8 +201,8 @@ export default async function IndexPage({
         >
         <ul className="max-w-lg text-sm list-disc list-inside">
             <li>Go to Settings {">"} Advanced {">"} Change my handle.</li>
-            <li>Select "I have my own domain" and enter your new handle.</li>
-            <li>Finally, tap "Verify DNS Record".</li>
+            <li>Select &quot;I have my own domain&quot; and enter your new handle.</li>
+            <li>Finally, tap &quot;Verify DNS Record&quot;.</li>
         </ul>
 
         </Stage>
