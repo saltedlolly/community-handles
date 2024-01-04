@@ -11,4 +11,6 @@ export const siteConfig = {
       href: "/community",
     },
   ],
+  links: {
+  },
 }
