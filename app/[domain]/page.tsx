@@ -225,7 +225,7 @@ export default async function IndexPage({
           </p>
 
           <p className="max-w-lg text-sm mt-6">
-          To confirm your donation has been sent, please message {" "} 
+          To confirm your donation, please message {" "} 
           <a href="https://bsky.app/profile/digibyte.social" className="underline">
             @digibyte.social
             </a> on Bluesky with your TXID. 
