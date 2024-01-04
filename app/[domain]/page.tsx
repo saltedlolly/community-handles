@@ -207,7 +207,42 @@ export default async function IndexPage({
           </p>
 
         </Stage>
+        <Stage
+          title="Please make a donation"
+          number={4}
+          disabled={!newHandle || !!error2}
+          last
+        >
 
+        <p className="max-w-lg text-smmt-6">
+          This service exists to help fund development of {" "}
+            <a href="https://diginode.tools" className="underline">
+              DigiNode Tools 
+            </a>. A minimum donation of 1000 DGB is requested: 
+        </p>
+
+
+
+          <p className="max-w-lg text-sm mt-6">
+          To confirm your donation has been sent, please message {" "} 
+          <a href="https://bsky.app/profile/digibyte.social" className="underline">
+            @digibyte.social
+            </a> on Bluesky with your TXID. 
+          </p>
+
+          <p className="mt-6 max-w-lg text-sm"><em>
+            DigiNode Tools makes it easy to setup and manage a DigiByte Node & DigiAsset Node on a Raspberry Pi, or other Ubuntu/Debian system. Go {" "}
+            <a href="https://diginode.tools" className="underline">
+              here
+            </a> to learn more. Your donation helps me to keep improving it, as well as covering the costs of running this service. 
+            If you need help or have any questions, please message me on Blusesky {" "}  <a href="https://bsky.app/profile/olly.st" className="underline">
+              @olly.st
+              </a> or on X {" "}  <a href="https://x.com/saltedlolly" className="underline">
+              @saltedlolly
+              </a>. Thank you very much for your support. Olly</em>
+          </p>
+
+        </Stage>
       </div>
     </main>
   )
