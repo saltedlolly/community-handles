@@ -221,7 +221,7 @@ export default async function IndexPage({
             </a>. A minimum donation of 1000 DGB is requested: 
         </p>
 
-        <p className="max-w-lg text-sm mt-6 wrapword"><strong>
+        <p style={{ wordBreak: 'break-all' }} className="max-w-lg text-sm mt-6"><strong>
             dgb1qydgp87vvp3398nyjcmwe5vwm8zw6nexn3g7ckd</strong>
           </p>
 
