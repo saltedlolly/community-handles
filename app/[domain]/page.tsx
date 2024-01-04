@@ -120,7 +120,7 @@ export default async function IndexPage({
             </a>. 
           </p>
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
-          Follow the instructions below to get your own @you.{domain} handle
+          Follow the instructions below to get your own @<em>you</em>.{domain} handle
         </p>
       </div>
       <div>
