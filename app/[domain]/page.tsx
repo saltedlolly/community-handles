@@ -120,7 +120,7 @@ export default async function IndexPage({
             </a>. 
           </p>
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
-          Follow the instructions below to get your own @<em>you</em>.{domain} handle
+          Follow the instructions below to get your own @<em>yourchoice</em>.{domain} handle
         </p>
       </div>
       <div>
@@ -199,12 +199,11 @@ export default async function IndexPage({
           number={3}
           disabled={!newHandle || !!error2}
         >
-          <p className="max-w-lg text-sm">
-            Go to Settings {">"} Advanced {">"} Change my handle. Select &quot;I
-            have my own domain&quot; and enter{" "}
-            {newHandle ? `"${newHandle}"` : "your new handle"}. Finally, tap
-            &quot;Verify DNS Record&quot;.
-          </p>
+        <ul className="max-w-lg text-sm list-disc list-inside">
+            <li>Go to Settings {">"} Advanced {">"} Change my handle.</li>
+            <li>Select "I have my own domain" and enter your new handle.</li>
+            <li>Finally, tap "Verify DNS Record".</li>
+        </ul>
 
         </Stage>
         <Stage
