@@ -68,6 +68,11 @@
 
     --radius: 0.5rem;
   }
+
+  .wrapword {
+    word-wrap: break-word;
+  }
+
 }
 
 @layer base {
