@@ -12,5 +12,6 @@ export const siteConfig = {
     },
   ],
   links: {
+    github: "https://github.com/saltedlolly/community-handles",
   },
 }
