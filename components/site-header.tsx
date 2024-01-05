@@ -21,17 +21,7 @@ export function SiteHeader({ children }: Props) {
 
   const links = (
     <nav className="flex items-center gap-4 md:gap-1">
-      <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
-        <div
-          className={buttonVariants({
-            size: "sm",
-            variant: "ghost",
-          })}
-        >
-          <Icons.gitHub className="h-5 w-5" />
-          <span className="sr-only">GitHub</span>
-        </div>
-      </Link>
+
       <ThemeToggle />
     </nav>
   )
