@@ -111,7 +111,7 @@ export default async function IndexPage({
           handle for Bluesky
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
-          Follow the instructions below to get your own @<em>you</em>.{domain} handle
+          Follow the steps below to claim your @<em>you</em>.{domain} handle
         </p>
       </div>
       <div>
