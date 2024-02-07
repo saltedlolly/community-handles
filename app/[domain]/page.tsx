@@ -111,15 +111,6 @@ export default async function IndexPage({
           handle for Bluesky
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
-            Choose between {" "}
-            <a href="https://digibyte.social" className="underline">
-              digibyte.social 
-            </a> and {" "}
-            <a href="https://digibyte.life" className="underline">
-              digibyte.life 
-            </a>. 
-          </p>
-        <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
           Follow the instructions below to get your own @<em>you</em>.{domain} handle
         </p>
       </div>
