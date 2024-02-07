@@ -132,8 +132,11 @@ export default async function IndexPage({
                 <Button type="submit">Submit</Button>
               </div>
               <p className="text-sm text-muted-foreground">
-                Enter your current handle, not including the @
-              </p>
+                Enter your current handle, not including the @.
+                If you need a Bluesky account you can sign up {" "}
+                <a href="https://bsky.app/" className="underline">
+                here 
+                </a>.</p>
               {error1 && (
                 <p className="flex flex-row items-center gap-2 text-sm text-red-500">
                   <X className="h-4 w-4" /> Handle not found - please try again
@@ -208,7 +211,7 @@ export default async function IndexPage({
           This service exists to help fund development of {" "}
             <a href="https://diginode.tools" className="underline">
               DigiNode Tools 
-            </a>. A minimum donation of 1000 DGB is requested: 
+            </a>. A suggested minimum donation of 1000 DGB is encouraged: 
         </p>
 
         <p style={{ wordBreak: 'break-all' }} className="max-w-lg text-sm mt-6"><strong>
@@ -216,10 +219,10 @@ export default async function IndexPage({
           </p>
 
           <p className="max-w-lg text-sm mt-6">
-          To confirm your donation, please message {" "} 
-          <a href="https://bsky.app/profile/digibyte.social" className="underline">
-            @digibyte.social
-            </a> on Bluesky with your TXID. 
+          If you are new to Bluesky, be sure to save and pin the {" "} 
+          <a href="https://bsky.app/profile/did:plc:jiixynne7r3dybu3mvno5vyt/feed/aaajzbqgqiwki" className="underline">
+            DigiByte Feed
+            </a> to discover other DigiByte users to follow on Bluesky.
           </p>
 
           <p className="mt-6 max-w-lg text-sm"><em>
