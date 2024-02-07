@@ -218,13 +218,6 @@ export default async function IndexPage({
             dgb1qydgp87vvp3398nyjcmwe5vwm8zw6nexn3g7ckd</strong>
           </p>
 
-          <p className="max-w-lg text-sm mt-6">
-          If you are new to Bluesky, be sure to save and pin the {" "} 
-          <a href="https://bsky.app/profile/did:plc:jiixynne7r3dybu3mvno5vyt/feed/aaajzbqgqiwki" className="underline">
-            DigiByte Feed
-            </a> to discover other DigiByte users to follow on Bluesky.
-          </p>
-
           <p className="mt-6 max-w-lg text-sm"><em>
             DigiNode Tools makes it easy to setup and manage a DigiByte Node & DigiAsset Node on a Raspberry Pi, or other Ubuntu/Debian system. Go {" "}
             <a href="https://diginode.tools" className="underline">
@@ -235,6 +228,13 @@ export default async function IndexPage({
               </a> or on X {" "}  <a href="https://x.com/saltedlolly" className="underline">
               @saltedlolly
               </a>. Thank you very much for your support. Olly</em>
+          </p>
+
+          <p className="max-w-lg text-sm mt-6">
+          Tip: If you are new to Bluesky, be sure to save and pin the {" "} 
+          <a href="https://bsky.app/profile/did:plc:jiixynne7r3dybu3mvno5vyt/feed/aaajzbqgqiwki" className="underline">
+            DigiByte Feed
+            </a> to discover other DigiByte users.
           </p>
 
         </Stage>
